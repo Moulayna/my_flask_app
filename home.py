@@ -1,2 +1,3 @@
+import navigation
 def home_page():
-    return "bake!"
+    return navigation.navigation()

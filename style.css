@@ -1,0 +1,15 @@
+nav a {
+    border: solid;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav{
+    text-align: center,
+}
+nav a {
+    text-decoration: none,
+}
+body {
+    background-color: yellow;
+}
