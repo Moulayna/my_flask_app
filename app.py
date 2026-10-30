@@ -11,24 +11,24 @@ app = Flask(__name__)
 
 @app.route("/")
 def home_page():
-  return page_wrapper("Homepage",home.home_page())
+  return page_wrapper.page_wrapper("Homepage",home.home_page())
 
 
 @app.route("/projects")
 def project():
-  return page_wrapper("project", projects.projects())
+  return page_wrapper.page_wrapper("project", projects.projects())
 
 @app.route("/health")
 def healths():
-  return page_wrapper ("health", health.health_project())
+  return page_wrapper.page_wrapper("health", health.health_project())
 
 @app.route("/haii")
 def HAIIs():
-  return page_wrapper ("HAIIs", haii.haii_project())
+  return page_wrapper.page_wrapper("HAIIs", haii.haii_project())
 
 @app.route("/responsible design")
 def Responsibledesigns():
-  return page_wrapper ("responsible design", responsibledesign.responsibledesign_project())
+  return page_wrapper.page_wrapper("responsible design", responsibledesign.responsibledesign_project())
 
 
 @app.route("/cv")

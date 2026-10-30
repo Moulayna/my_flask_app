@@ -1,7 +1,7 @@
 def page_wrapper(title,content):
-    return f''' <!DOCTYPE html> <html lang="en>
+    return f''' <!DOCTYPE html> <html lang="en">
         <head>
-            <title> {title} - My Website</title.
+            <title> {title} - My Website</title>
             <link rel = "stylesheet" type = "text/css" href = "/static/styles.css">
         </head>
         <body>
