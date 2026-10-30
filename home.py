@@ -4,13 +4,6 @@ def home_page():
 
 <main> 
     <aside>
-        <p>sidebar</p>
-    </aside>
-    <?article>
-</main>
-
-<main> 
-    <aside>
     <img style="border: solid" height= "300px" width= "200px">
     <h2> Contact </2>
     <a href="mailto:moulaynj@uci.edu">Send Email</a>
