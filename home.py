@@ -5,7 +5,7 @@ def home_page():
 <main> 
     <aside>
     <img style="border: solid" height= "300px" width= "200px">
-    <h2> Contact </2>
+    <h2> Contact </h2>
     <a href="mailto:moulaynj@uci.edu">Send Email</a>
     <a href="https://www.linkedin.com/in/moulayna-johnson-sidibaba" target="_blank">LinkedIn</a>
     <a href="https://github.com/moulaynj" target="_blank">GitHub</a>
