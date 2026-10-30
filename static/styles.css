@@ -13,5 +13,26 @@ nav a {
     text-decoration: none,
 }
 body {
-    background-color: yellow;
+    background-color: turquois;
+}
+
+main {
+display: grid;
+grid-template-areas: "sidebar main";
+grid-template-columns: 30% auto;
+padding: 50px;
+}
+
+aside{
+grid-area: sidebar;
+height: 100vw;
+background-color: lightgray;
+padding: 50px;
+}
+
+article{
+
+grid-area: main;
+height: 100vw;
+background-color: gray;
 }
