@@ -13,7 +13,10 @@ def home_page():
     <aside>
     <img style="border: solid" height= "300px" width= "200px">
     <h2> Contact </2>
-    <p>moulaynj@uci.edu</p>
+    <a href="mailto:moulaynj@uci.edu">Send Email</a>
+    <a href="https://www.linkedin.com/in/moulayna-johnson-sidibaba" target="_blank">LinkedIn</a>
+    <a href="https://github.com/moulaynj" target="_blank">GitHub</a>
+    <a href="https://scholar.google.com/citations?user=uizlnJ4AAAAJ&hl=en" target="_blank">Google Scholar</a>
     </aside>
 
     <article>
