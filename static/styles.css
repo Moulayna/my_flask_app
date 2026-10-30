@@ -25,13 +25,13 @@ padding: 50px;
 
 aside{
 grid-area: sidebar;
-height: 20vw;
+height: 23vw;
 padding: 50px;
 }
 
 article{
 
 grid-area: main;
-height: 20vw;
+height: 23vw;
 padding: 50px;
 }
